@@ -16,13 +16,15 @@ body {
 img {
     width: 300px;
     margin-left: 20px;
+    height: 250px;
 }
-#newgame{
-  margin-left: 45%;
-  background-color: black;
-  border: black;
-  color: green;
-  border-radius: 30px;
+
+#newgame {
+    margin-left: 45%;
+    background-color: black;
+    border: black;
+    color: green;
+    border-radius: 30px;
 }
 
 #rock:hover {
@@ -30,13 +32,31 @@ img {
     cursor: pointer;
     border-radius: 40px;
 }
+
 #paper:hover {
     background-color: green;
     cursor: pointer;
     border-radius: 40px;
 }
+
 #scissors:hover {
     background-color: green;
     cursor: pointer;
     border-radius: 40px;
+}
+
+#round3 {
+    background-color: green;
+    border-color: black;
+    border-radius: 100px;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+#round5 {
+    background-color: green;
+    border-color: black;
+    border-radius: 100px;
+    margin-left: 75%;
+    margin-top: 10px;
 }
