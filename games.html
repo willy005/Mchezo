@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Games</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/games.css">
+
+    <body>
+        <div class="container">
+            <h1>First person to score 3 or 5 points wins!!</h1>
+            <button id="newgame">NewGame</button>
+
+            <div class="choice">
+                <div class="select-choice" id="rock">
+                    <img class="img-weapon" src="./images/rock.png" alt="Selection - rock" id="rock">
+                </div>
+                <div class="select-choice" id="paper">
+                    <img class="img-weapon" src="./images/paper.png" alt="Selection - paper" id="paper">
+                </div>
+                <div class="select-choice" id="scissors">
+                    <img class="img-weapon" src="./images/scissors.png" alt="Selection - scissors" id="scissors">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" id="score_column1">
+                    <h1>Computer</h1>
+                    <h2>Points Scored</h2>
+                    <h1 id="comp_score">0</h1>
+
+                </div>
+                <div class="col-md-4" id="score_column2">
+                    <h1>Scores</h1>
+                    <h2 id="choice"></h2>
+                    <h2 id="won_round"></h2>
+                    <h1 id="winner"></h1>
+                </div>
+                <div class="col-md-4" id="score_column3">
+                    <h1>Player 1</h1>
+                    <h2>Points Scored</h2>
+                    <h1 id="player_score">0</h1>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+            <script src="js/script.js"></script>
+
+        </div>
+    </body>
+</html>
